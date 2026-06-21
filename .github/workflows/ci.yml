@@ -10,7 +10,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Validate seed.yaml
         run: python3 -c "import yaml; yaml.safe_load(open('seed.yaml'))"
@@ -22,7 +22,7 @@ jobs:
           echo "All required files present"
 
       - name: Lint markdown
-        uses: DavidAnson/markdownlint-cli2-action@v19
+        uses: DavidAnson/markdownlint-cli2-action@v23
         with:
           globs: "**/*.md"
           config: |
