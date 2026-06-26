@@ -10,7 +10,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Validate seed.yaml
         run: python3 -c "import yaml; yaml.safe_load(open('seed.yaml'))"
