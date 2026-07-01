@@ -30,12 +30,23 @@ Accountability reframed as live, interactive performance art. The public ledger 
 
 ```
 seed.yaml                              # ORGANVM automation contract
+Makefile                               # Local test command
 concepts/
   stake-commitment-visualization.md     # Data art from stake mechanics
   audit-cycle-generative-art.md         # Generative systems from audit rhythms
   accountability-as-performance.md      # Live performance from ledger events
+docs/pitch/index.html                  # Static ORGANVM pitch artifact
+tests/test_pitch_artifact.py           # Regression coverage for the pitch artifact
 ```
 
 ## Status
 
-Concept phase. No runnable code yet -- this repo currently holds design documents that will evolve into prototypes as the Styx theory stabilizes.
+Concept phase. No application runtime yet -- this repo currently holds design documents and a static pitch artifact that will evolve into prototypes as the Styx theory stabilizes.
+
+## Testing
+
+Run the focused regression suite with:
+
+```sh
+make test
+```
