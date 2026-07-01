@@ -21,6 +21,9 @@ jobs:
           test -f seed.yaml
           echo "All required files present"
 
+      - name: Run tests
+        run: make test
+
       - name: Lint markdown
         uses: DavidAnson/markdownlint-cli2-action@v23
         with:
