@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "description": "Repos promoted into the ranked value tier - discovered to hold concrete, build-out-worthy latent value.",
+  "repos": [
+    "organvm/styx-behavioral-art"
+  ],
+  "ranked": [
+    {
+      "repo": "organvm/styx-behavioral-art",
+      "promoted": "2026-07-03",
+      "source": "auto-discovery",
+      "tier": "creative-artifact",
+      "value": "Reusable Styx accountability visualization and performance grammar for translating stake, commitment, and audit-cycle theory into onboarding demos, public identity, and eventually verifiable visual proof surfaces for peer-audited behavioral blockchain.",
+      "first_task": "Build docs/prototypes/audit-score/index.html as a dependency-light interactive canvas prototype with deterministic synthetic Styx audit events, pass/fail sediment, and stake-weighted ledger-score rendering; link it from README.md and docs/pitch/index.html.",
+      "thesis": "DISCOVERY.md"
+    }
+  ]
+}
